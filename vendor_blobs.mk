@@ -64,6 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/torino/proprietary/bin/charging_mode:system/bin/charging_mode \
     vendor/samsung/torino/proprietary/bin/playlpm:system/bin/playlpm \
     vendor/samsung/torino/proprietary/lib/libqmage_bluesea.so:system/lib/libqmage_bluesea.so \
-    vendor/samsung/torino/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so
+    vendor/samsung/torino/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
+
+# Torino RIL
+PRODUCT_COPY_FILES += \
+    vendor/samsung/torino/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
+    vendor/samsung/torino/proprietary/lib/libril.so:system/lib/libril.so 
 
 $(call inherit-product, vendor/samsung/bcm21553-common/vendor.mk)
