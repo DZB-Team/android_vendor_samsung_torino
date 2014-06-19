@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 #    vendor/samsung/torino/proprietary/lib/hw/lights.bcm21553.so:system/lib/hw/lights.bcm21553.so \
     vendor/samsung/torino/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/torino/proprietary/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
+    vendor/samsung/torino/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
 #    vendor/samsung/torino/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
 #    vendor/samsung/torino/proprietary/lib/libaccsensorcal.so:system/lib/libaccsensorcal.so \
 #    vendor/samsung/torino/proprietary/lib/libaccsensorcaltest.so:system/lib/libaccsensorcaltest.so \
