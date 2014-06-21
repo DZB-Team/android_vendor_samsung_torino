@@ -15,7 +15,7 @@
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/torino/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/samsung/torino/proprietary/lib/libbrcmjpeg.so:system/lib/libbrcmjpeg.so \
+    vendor/samsung/torino/proprietary/lib/libbrcmjpeg.so:system/lib/libbrcmjpeg.so 
 #    vendor/samsung/torino/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
 #    vendor/samsung/torino/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
 #    vendor/samsung/torino/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/torino/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/torino/proprietary/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
-    vendor/samsung/torino/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
+    vendor/samsung/torino/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so 
 #    vendor/samsung/torino/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
 #    vendor/samsung/torino/proprietary/lib/libaccsensorcal.so:system/lib/libaccsensorcal.so \
 #    vendor/samsung/torino/proprietary/lib/libaccsensorcaltest.so:system/lib/libaccsensorcaltest.so \
@@ -69,6 +69,7 @@ PRODUCT_COPY_FILES += \
 # Torino RIL
 PRODUCT_COPY_FILES += \
     vendor/samsung/torino/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
-    vendor/samsung/torino/proprietary/lib/libril.so:system/lib/libril.so 
+    vendor/samsung/torino/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/bcm21553-common/proprietary/lib/liburilclient.so:system/lib/liburilclient.so 
 
 $(call inherit-product, vendor/samsung/bcm21553-common/vendor.mk)
