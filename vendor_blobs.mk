@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
 # Torino RIL
 PRODUCT_COPY_FILES += \
     vendor/samsung/torino/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
-    vendor/samsung/torino/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/torino/proprietary/lib/liburilclient.so:system/lib/liburilclient.so 
 
 $(call inherit-product, vendor/samsung/bcm21553-common/vendor.mk)
