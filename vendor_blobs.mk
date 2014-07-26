@@ -14,26 +14,12 @@
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/samsung/torino/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/samsung/torino/proprietary/lib/libbrcmjpeg.so:system/lib/libbrcmjpeg.so 
-#    vendor/samsung/torino/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
-#    vendor/samsung/torino/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
-#    vendor/samsung/torino/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
-#    vendor/samsung/torino/proprietary/lib/libseccamera.so:system/lib/libseccamera.so \
-#    vendor/samsung/torino/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
-#    vendor/samsung/torino/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-#    vendor/samsung/torino/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-#    vendor/samsung/torino/proprietary/lib/libcaps.so:system/lib/libcaps.so
+    vendor/samsung/torino/proprietary/lib/libcamera.so:system/lib/libcamera.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/torino/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/samsung/torino/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so 
-#    vendor/samsung/torino/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
-#    vendor/samsung/torino/proprietary/lib/libaccsensorcal.so:system/lib/libaccsensorcal.so \
-#    vendor/samsung/torino/proprietary/lib/libaccsensorcaltest.so:system/lib/libaccsensorcaltest.so \
-#    vendor/samsung/torino/proprietary/lib/libaccelcal.so:system/lib/libaccelcal.so \
-#    vendor/samsung/torino/proprietary/lib/libdhwr.so:system/lib/libdhwr.so
+    vendor/samsung/torino/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so
 
 # Offline 320 x 240 charging
 #PRODUCT_COPY_FILES += \
